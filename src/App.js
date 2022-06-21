@@ -1,11 +1,11 @@
-
-import './App.css';
+import {Chart} from 'chart.js'
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+
   );
 }
 
